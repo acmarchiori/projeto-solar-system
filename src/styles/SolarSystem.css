@@ -1,0 +1,60 @@
+.paragrafo {
+  display: flex;
+  font-size: 16px;
+  height: 300px;
+  justify-content: center;
+  line-height: 24px;
+}
+
+.xuxublz {
+  display: flex;
+  justify-content: space-between;
+}
+
+.xablau {
+  align-items: center;
+  display: flex;
+  height: 180px;
+  justify-content: center;
+}
+
+.planeta_0 {
+  height: 31px;
+  width: 41px;
+}
+
+.planeta_1 {
+  height: 76px;
+  width: 102px;
+}
+
+.planeta_2 {
+  height: 79px;
+  width: 106px;
+}
+
+.planeta_3 {
+  height: 50px;
+  width: 66px;
+}
+
+.planeta_4 {
+  height: 204px;
+  width: 272px;
+}
+
+.planeta_5 {
+  height: 210.9px;
+  transform: rotate(-16.53deg);
+  width: 282.41px;
+}
+
+.planeta_6 {
+  height: 109px;
+  width: 144px;
+}
+
+.planeta_7 {
+  height: 107px;
+  width: 144px;
+}

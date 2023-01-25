@@ -1,0 +1,29 @@
+.xexeu {
+  display: flex;
+  justify-content: center;
+}
+
+.colunas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: stretch;
+}
+
+.missionCard {
+  margin-bottom: 25px;
+  margin-right: 20px;
+  width: 496px;
+}
+
+fieldset {
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.smoked {
+  background-color: rgba(250, 250, 250, 0.14);
+  border-radius: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}

@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300;400&display=swap') ;
+
 .App {
   text-align: center;
+}
+
+body {
+  background: url('images/background.png');
+  color: white;
+  font-family: Epilogue , sans-serif;
+}
+
+hr {
+  background-color: white;
+  border-width: 0;
+  color: white;
+  height: 2px;
+  position: relative;
+  top: 100px;
+  z-index: -1;
 }

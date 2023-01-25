@@ -1,13 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../styles/SolarSystem.css';
 
 class PlanetCard extends React.Component {
   render() {
-    const { planetName, planetImage } = this.props;
+    const { planetName, planetImage, id } = this.props;
     return (
       <div data-testid="planet-card">
-        <p data-testid="planet-name">{planetName}</p>
-        <img src={ planetImage } alt={ `Planeta ${planetName}` } />
+        <section className="xablau">
+          <img className={ id } src={ planetImage } alt={ `Planeta ${planetName}` } />
+        </section>
+        <section className="paragrafo">
+          <p data-testid="planet-name">{planetName}</p>
+        </section>
       </div>
     );
   }
@@ -16,6 +21,7 @@ class PlanetCard extends React.Component {
 PlanetCard.propTypes = {
   planetName: PropTypes.string,
   planetImage: PropTypes.string,
+  id: PropTypes.string,
 }.isRequired;
 
 export default PlanetCard;
