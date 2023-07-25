@@ -19,7 +19,7 @@ Neste projeto, utilizei as seguintes tecnologias:
 
 Para executar o projeto em sua máquina local, siga os passos abaixo:
 
-1. Clone este repositório para sua máquina utilizando o comando: `git clone https://github.com/seu-usuario/projeto-solar-system`.
+1. Clone este repositório para sua máquina utilizando o comando: `git clone git@github.com:acmarchiori/projeto-solar-system.git`.
 
 2. Acesse o diretório do projeto: `cd projeto-solar-system`.
 
