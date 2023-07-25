@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b11835c.css",
-    "main.js": "/static/js/main.20f40fca.js",
+    "main.css": "/static/css/main.fa48c9c5.css",
+    "main.js": "/static/js/main.de5af427.js",
     "static/media/background.png": "/static/media/background.0dced38ca9c5cd176fed.png",
     "static/media/Mercurio.png": "/static/media/Mercurio.a7105a56cdf707dc3cce.png",
     "static/media/Terra.png": "/static/media/Terra.990ac782d3b62d230d28.png",
@@ -12,11 +12,11 @@
     "static/media/Saturno.png": "/static/media/Saturno.00b7295f54e9af9bbe90.png",
     "static/media/Urano.png": "/static/media/Urano.607cb33ce7cb511e3d9c.png",
     "index.html": "/index.html",
-    "main.0b11835c.css.map": "/static/css/main.0b11835c.css.map",
-    "main.20f40fca.js.map": "/static/js/main.20f40fca.js.map"
+    "main.fa48c9c5.css.map": "/static/css/main.fa48c9c5.css.map",
+    "main.de5af427.js.map": "/static/js/main.de5af427.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b11835c.css",
-    "static/js/main.20f40fca.js"
+    "static/css/main.fa48c9c5.css",
+    "static/js/main.de5af427.js"
   ]
 }

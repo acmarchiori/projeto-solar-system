@@ -16,12 +16,11 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-scripts": "^5.0.1",
-    "vite": "^4.4.7",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "vite build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "lint:styles": "npx stylelint '**/*.css'",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx"
