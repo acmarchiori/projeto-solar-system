@@ -11,7 +11,7 @@ class Missions extends React.Component {
       <header>
         <div className="smoked">
           <Title className="missoes" headline="Missões" />
-          <div className="xexeu">
+          <div className="layout-container">
             <div className="colunas" data-testid="missions">
               {
                 missions

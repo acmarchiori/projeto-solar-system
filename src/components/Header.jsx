@@ -5,6 +5,7 @@ class Header extends React.Component {
   render() {
     return (
       <header>
+        <div className="ellipse" />
         <h1>Sistema Solar</h1>
       </header>
     );

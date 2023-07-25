@@ -7,6 +7,19 @@ h1 {
   text-transform: uppercase;
 }
 
+.ellipse {
+  border: 4px solid white; /* Cria o contorno da elipse */
+  border-radius: 50%;
+  clip-path: polygon(100% 0%, 178% 30%, 0% 130%, 0% 0%);
+  height: 110px;
+  left: 680px; /* Ajuste a posição horizontal conforme necessário */
+  position: absolute;
+  top: 85px;
+  transform: rotate(155deg);
+  width: 300px;
+  z-index: -1; /* Para garantir que a elipse fique atrás do título */
+}
+
 .missionCard p:nth-child( 1 ) {
   font-size: 24px;
   grid-column: 1 / 12;
