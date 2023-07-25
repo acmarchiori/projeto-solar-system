@@ -5,7 +5,7 @@ import '../styles/Title.css';
 class Title extends React.Component {
   render() {
     const { headline } = this.props;
-    return <h2 className="teste">{headline}</h2>;
+    return <h2 className="text">{headline}</h2>;
   }
 }
 

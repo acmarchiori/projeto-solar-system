@@ -5,6 +5,7 @@ h1 {
   margin-top: 100px;
   text-align: center;
   text-transform: uppercase;
+  z-index: 2;
 }
 
 .ellipse {
@@ -12,12 +13,13 @@ h1 {
   border-radius: 50%;
   clip-path: polygon(100% 0%, 178% 30%, 0% 130%, 0% 0%);
   height: 110px;
-  left: 680px; /* Ajuste a posição horizontal conforme necessário */
+  left: 41%; /* Centraliza a elipse horizontalmente no ponto médio */
   position: absolute;
+  text-align: center;
   top: 85px;
   transform: rotate(155deg);
   width: 300px;
-  z-index: -1; /* Para garantir que a elipse fique atrás do título */
+  z-index: 1; /* Para garantir que a elipse fique atrás do título */
 }
 
 .missionCard p:nth-child( 1 ) {
